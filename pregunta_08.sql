@@ -43,5 +43,5 @@
 --
 
 SELECT strftime('%Y',c23) as "YEAR", AVG(c21)
-FROM `tbl2`
+FROM `tbl`
 GROUP BY "YEAR";
