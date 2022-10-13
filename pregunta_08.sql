@@ -42,6 +42,6 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 
-SELECT strftime('%Y',c23) as "YEAR", AVG(c21)
-FROM `tbl`
-GROUP BY "YEAR";
+SELECT strftime('%Y',c23), AVG(c21)
+FROM `tbl2`
+GROUP BY strftime('%Y',c23);
