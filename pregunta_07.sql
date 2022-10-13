@@ -46,5 +46,5 @@
 
 
 SELECT * from `tbl1`
-ORDER BY c14 
-WHERE K0 != 'A' AND k0 != 'B' AND c13 != 200 AND c13 != 900;
+WHERE K0 != 'A' AND k0 != 'B' AND c13 != 200 AND c13 != 900
+ORDER BY c14;
