@@ -45,4 +45,5 @@
 -- 
 
 SELECT * from `tbl1`
-ORDER BY c14 WHERE K0 = 'A';
+WHERE K0 = 'A'
+ORDER BY c14;
